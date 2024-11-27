@@ -1,0 +1,50 @@
+.fancy-line {
+    border: 0;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    width: 75%;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.band-members {
+    text-align: center;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member-info {
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.socials {
+    margin-top: 10px;
+}
