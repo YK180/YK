@@ -1,35 +1,108 @@
-.fancy-line {
-    border: 0;
-    border-top: 2px solid black;
-    margin: 20px 0;
-    width: 75%;
-  }
-  
+*{
+    margin: 0;
+    padding: 0;
 
-  body {
-    font-family: Arial, sans-serif;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Coldplay\ Background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.main2{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Coldplay\ stage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left; 
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+/* Changes color when the cursor hovers over the menu */
+ul li a:hover{
+    color: #fec20c 
 }
 
 .band-members {
-    text-align: center;
+    text-align: left;
+    float: left;
 }
 
 .member {
+    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    border: 1px solid #ddd;
     padding: 20px;
-    background-color: #f4f4f4;
+}
+
+.member2 {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .profile-pic {
-    border-radius: 50%;
+    border-radius: 20%;
     overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
 }
 
 .profile-pic img {
@@ -39,12 +112,33 @@
 }
 
 .member-info {
-    background-color: #ddd;
     padding: 15px;
     border-radius: 5px;
     width: 300px;
+    color: #ffffff
 }
 
 .socials {
     margin-top: 10px;
 }
+
+
+
+.header{
+    text-align: left;
+    color: #fec20c
+}
+
+.centered-player {
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Arranges the iframes vertically */
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    margin: 0 auto; /* Ensures the div itself is centered */
+    width: 100%; /* Keeps the width of the container consistent */
+    
+}
+
+
+
+
