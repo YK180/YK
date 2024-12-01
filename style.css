@@ -4,7 +4,7 @@
 
 }
 
-/*General Page*/
+/* General Page */
 .logo{
     color: #ffffff;
     font-size: 60px;
@@ -14,6 +14,7 @@
     padding-top: 10px;
 }
 
+/* For the background image */
 .menu{
     width: 100%;
     max-width: 400px;
@@ -22,39 +23,40 @@
     height: 70px;
 }
 
-ul{
+/* Styling for the unordered list container (ul) */
+ul {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-ul li{
+/* Styling for the list items (li) inside the unordered list */
+ul li {
     list-style: none;
     margin-left: 62px;
     margin-top: 35px;
     font-size: 20px;
-
 }
 
-ul li a{
+/* Styling for the anchor links (a) inside the list items */
+ul li a {
     text-decoration: none;
     color: #ffffff;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
-    
 }
 
-/* Changes color when the cursor hovers over the menu */
-ul li a:hover{
+/* Hover effect for anchor links */
+ul li a:hover {
     color: #9766f1; 
 }
 
+
 /* Footer container */
 .footer {
-    background-color: #9766f1; /* Navy blue background */
+    background-color: #9766f1; 
     color: white;
     padding: 10px;
     text-align: center;
@@ -66,6 +68,7 @@ ul li a:hover{
     margin-bottom: 20px;
 }
 
+/* Styling for the anchor links (a) inside the list items */
 .social-media a {
     margin: 0 10px;
     transition: transform 0.3s ease-in-out;
@@ -74,14 +77,15 @@ ul li a:hover{
 
 /* Social media icon images */
 .social-media img {
-    width: 24px; /* Set the desired width */
-    height: 24px; /* Set the desired height */
-    display: inline-block; /* Ensures proper alignment */
+    width: 24px; 
+    height: 24px; 
+    display: inline-block; 
     transition: transform 0.3s ease-in-out;
 }
 
+/*Affects the img when cursor hovers over*/
 .social-media img:hover {
-    transform: scale(1.2); /* Enlarge the icon slightly on hover */
+    transform: scale(1.2); 
 }
 
 /* Footer links section */
@@ -89,6 +93,7 @@ ul li a:hover{
     margin-bottom: 20px;
 }
 
+/* Styling for footer links */
 .footer-links a {
     margin: 0 10px;
     color: white;
@@ -97,15 +102,17 @@ ul li a:hover{
     transition: color 0.3s ease-in-out;
 }
 
+/* Hover effect for footer links */
 .footer-links a:hover {
     color: #c2a1ff; /* Highlight color on hover */
 }
 
-/* Footer info section */
+/* Styling for footer info section container */
 .footer-info {
     margin-bottom: 10px;
 }
 
+/* Styling for individual links in footer info section */
 .footer-info a {
     margin: 0 5px;
     color: white;
@@ -113,18 +120,18 @@ ul li a:hover{
     font-size: 14px;
 }
 
+/* Hover effect for footer info links */
 .footer-info a:hover {
     text-decoration: underline;
 }
 
-/* Copyright text */
+/* Styling for the copyright text */
 .copyright {
     font-size: 12px;
 }
 
-
-
 /* HOME PAGE*/
+/* Main section styling with a background image */
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/Coldplay\ Background.jpg);
@@ -133,7 +140,7 @@ ul li a:hover{
     height: 90vh;
 }
 
-/* About Section */
+/* About Section container styling */
 .about-section {
     max-width: 1200px;
     margin: 50px auto;
@@ -143,61 +150,72 @@ ul li a:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings within the About Section */
 .about-section h1, .about-section h2 {
     color: #9766f1;
     font-size: 30px;
     margin-bottom: 20px;
 }
-.history p{
+
+/* Paragraph styling for the history section */
+.history p {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.img-text{
+/* Centered text below the history image */
+.img-text {
     text-align: center;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-.history{
+/* Margin adjustments for the history section */
+.history {
     margin-bottom: 30px;
 }
 
-.achievements{
+/* Margin adjustments for the achievements section */
+.achievements {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.band-members{
+/* Margin and padding adjustments for the band members section */
+.band-members {
     margin-bottom: 30px;
     padding-top: 30px;
 }
 
+/* Styling for the history image */
 .history-image {
     width: 100%;
     margin-top: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
 }
 
+/* Styling for unordered lists in the achievements section */
 .achievements ul {
     list-style: disc;
     padding-left: 40px;
 }
 
+/* Layout styling for the band members container */
 .band-members .members {
     display: flex;
     gap: 66px;
     flex-wrap: wrap;
 }
 
+/* Individual band member card styling */
 .band-members .member {
     text-align: center;
     width: 250px;
 }
 
+/* Styling for band member images */
 .band-members .member img {
     width: 100%;
     height: auto;
@@ -209,9 +227,9 @@ ul li a:hover{
     justify-content: space-between;
 }
 
-
 /* MUSIC PAGE*/
-.main2{
+/* Main section styling with a background image */
+.main2 {
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/Coldplay\ stage.jpg);
     background-position: center;
@@ -219,11 +237,12 @@ ul li a:hover{
     height: 90vh;
 }
 
-.text{
+/* Styling for the main text inside the section */
+.text {
     font-size: 50px;
     text-align: center;
-    color:#9766f1;
-    padding-top: 25px;  
+    color: #9766f1;
+    padding-top: 25px;
 }
 
 /* Album Container */
@@ -232,11 +251,10 @@ ul li a:hover{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px;  /* Increased padding for more space inside the container */
-    max-width: 1600px;  /* Increased width to make the container wider */
-    width: 100%;  /* Ensure the container takes up the full width */
+    padding: 40px; /* Increased padding for more space inside the container */
+    max-width: 1600px; /* Increased width to make the container wider */
+    width: 100%; /* Ensure the container takes up the full width */
     margin: 0 auto;
-    
 }
 
 /* Individual Album Box */
@@ -249,29 +267,33 @@ ul li a:hover{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effects for individual album box */
 .album:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Album image styling */
 .album img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    
 }
 
+/* Information about the album */
 .album-info {
     margin-top: 10px;
     color: #fff;
 }
 
+/* Album title styling */
 .album-info h3 {
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 16px;
 }
 
+/* Album description or metadata styling */
 .album-info p {
     font-size: 0.9em;
     margin-top: 5px;
@@ -280,27 +302,27 @@ ul li a:hover{
     padding-bottom: 10px;
 }
 
+/* General anchor tag styling */
 a {
     text-decoration: none;
 }
 
-/* TOUR PAGE*/
+/* TOUR PAGE */
 .main3 {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(coldplayconcert/Coldplay\ concert.jpeg);
     background-position: center;
     background-size: cover;
     height: 90vh;
-    
 }
 
-/* Filter Buttons */
+/* Filter Buttons Section */
 .filters {
     margin: 20px 0;
     text-align: center;
-    
 }
 
+/* Individual Filter Buttons */
 .filters button {
     margin: 5px;
     padding: 10px 20px;
@@ -310,9 +332,9 @@ a {
     font-size: 16px;
     background-color: #9766f1;
     transition: background-color 0.3s ease;
-    
 }
 
+/* Hover Effect for Filter Buttons */
 .filters button:hover {
     background-color: #8257d1;
 }
@@ -323,27 +345,28 @@ table {
     border-collapse: collapse; /* Remove spacing between table cells */
     margin-bottom: 20px; /* Add space below the table */
     table-layout: fixed; /* Ensure consistent column widths */
-
 }
 
+/* Table Header and Data Cells Styling */
 th, td {
     padding: 10px; /* Add padding for better readability */
     text-align: center; /* Center-align the text */
     border-bottom: 1px solid #ddd; /* Add a light border for rows */
     font-size: 18px;
-
 }
 
-th {    
-    background-color: #9766f1; /* Green background for headers */
-    color: white; /* White text for header */
+/* Table Header Styling */
+th {
+    background-color: #9766f1; /* Header background color */
+    color: white; /* Header text color */
 }
 
+/* Table Data Cell Background */
 td {
     background-color: #f9f9f9; /* Light background color for rows */
 }
 
-/* Styling for the "Available" ticket button */
+/* "Available" Ticket Button Styling */
 button.buy-ticket {
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
@@ -354,11 +377,12 @@ button.buy-ticket {
     font-size: 16px; /* Set a readable font size */
 }
 
-/* Hover effect for the "Available" button */
+/* Hover Effect for "Available" Ticket Button */
 button.buy-ticket:hover {
     background-color: #45a049; /* Darker green on hover */
 }
 
+/* General Styling for Buttons and "Sold Out" State */
 button, .sold-out {
     display: inline-block; /* Makes them appear side by side */
     padding: 10px 20px; /* Ensures the buttons have consistent padding */
@@ -369,14 +393,16 @@ button, .sold-out {
     vertical-align: middle; /* Aligns buttons vertically */
 }
 
+/* "Sold Out" Button Styling */
 .sold-out {
-    background-color: #d3d3d3; /* Sold Out button color */
-    color: #fff;
+    background-color: #d3d3d3; /* Gray background for sold-out button */
+    color: #fff; /* White text */
     cursor: not-allowed; /* Disables the sold-out button */
-    
 }
 
+
 /*STORE PAGE*/
+/* Main section styling with a background image */
 .main4{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/AUSTRIA-BRITAIN-MUSIC-CONCERT-COLDPLAY-SECURITY-12_1726973147488_1726973178311.webp);
@@ -390,6 +416,7 @@ button, .sold-out {
     text-align: center;
 }
 
+/* Store Section Heading */
 .store h1 {
     font-size: 45px;
     color: #9766f1;
@@ -397,12 +424,14 @@ button, .sold-out {
     margin-top: 30px;
 }
 
+/* Store Paragraph */
 .store p {
     font-size: 20px;
     color: #555;
     margin-bottom: 30px;
 }
 
+/* World Tour Heading */
 .world-tour h1{
     font-size: 45px;
     text-align: center;
@@ -748,7 +777,7 @@ button, .sold-out {
     flex-grow: 1; /* Allow title to take flexible space */
 }
 
-
+/* Product Card Paragraph */
 .product-card p {
     font-size: 16px;
     color: #555;
@@ -803,6 +832,7 @@ button, .sold-out {
     margin-bottom: 15px;
 }
 
+/* Product Card Button */
 .product-card button {
     background: #9766f1;
     color: white;
@@ -902,6 +932,7 @@ button, .sold-out {
     transition: background 0.3s;
 }
 
+/* Hover Effect for Product Card Button */
 .product-card button:hover {
     background: #c2a1ff;
 }
@@ -938,6 +969,7 @@ button, .sold-out {
     background: #c2a1ff;
 }
 
+/* Hover Effect for Product Card - Scale on Hover */
 .product-card:hover {
     transform: scale(1.05);
 }
@@ -976,7 +1008,7 @@ button, .sold-out {
 
 
 
-/* Cart Sidebar Styles */
+/* Cart Sidebar Styles - Positioned Fixed for Sidebar */
 #cart-sidebar {
     position: fixed;
     top: 0;
@@ -993,6 +1025,7 @@ button, .sold-out {
     overflow-y: auto; /* Allow scrolling if content overflows */
 }
 
+/* Cart Sidebar Header - Style for Heading */
 #cart-sidebar h2 {
     font-size: 24px;
     margin-bottom: 20px;
@@ -1002,7 +1035,7 @@ button, .sold-out {
     text-align: center;
 }
 
-/* Cart Items */
+/* Cart Container Styles - Section for Cart Items */
 #cart-container {
     margin: 20px 0;
     padding: 10px;
@@ -1012,6 +1045,8 @@ button, .sold-out {
     overflow-y: auto; /* Scrollable area for cart items */
 }
 
+
+/* Cart Item Styles - Layout and Design for Individual Cart Items */
 .cart-item {
     display: flex;
     justify-content: space-between;
@@ -1023,12 +1058,14 @@ button, .sold-out {
     color: #f1faee;
 }
 
+/* Cart Item Text Styling - Adjusting Font and Spacing for Item Description */
 .cart-item p {
     margin: 0;
     font-size: 14px;
     flex: 1;
 }
 
+/* Cart Item Remove Button - Button Styling for Removing Item */
 .cart-item button {
     background: #e63946;
     color: #f1faee;
@@ -1040,11 +1077,12 @@ button, .sold-out {
     transition: background-color 0.2s;
 }
 
+/* Cart Item Button Hover Effect - Changing Background on Hover */
 .cart-item button:hover {
     background: #d62828;
 }
 
-/* Cart Sidebar Close Button */
+/* Cart Sidebar Close Button - Close Button Positioning and Styling */
 #close-cart {
     position: absolute;
     top: 20px; /* Adjust top position */
@@ -1057,23 +1095,25 @@ button, .sold-out {
     transition: transform 0.2s;
 }
 
+/* Cart Sidebar Close Button Hover Effect - Rotates the close button on hover */
 #close-cart:hover {
     transform: rotate(90deg);
 }
 
-/* Cart Total Price */
+/* Cart Total Price Section - Styling for Total Price Text */
 #total-text {
     margin-top: 20px;
     font-size: 16px;
 }
 
+/* Cart Total Price - Styling for the Total Amount Display */
 #cart-total {
     font-weight: bold;
     font-size: 18px;
     color: #f1faee;
 }
 
-/* Checkout Button */
+/* Checkout Button - Styling for the Button to Proceed to Checkout */
 #checkout-button {
     width: 100%;
     padding: 12px;
@@ -1088,12 +1128,13 @@ button, .sold-out {
     transition: background-color 0.3s, transform 0.2s;
 }
 
+/* Checkout Button Hover Effect - Changes background and applies slight lift effect */
 #checkout-button:hover {
     background: #1d6f5b;
     transform: translateY(-2px);
 }
 
-/* Cart Icon */
+/* Cart Icon - Positioning and Styling for the Cart Icon */
 #cart-icon {
     position: fixed;
     top: 20px;
@@ -1102,13 +1143,16 @@ button, .sold-out {
     z-index: 1000;
 }
 
+/* Cart Icon Image - Size and Cursor Style for the Icon */
 #cart-icon img {
     width: 25px;
     height: 25px;
     cursor: pointer;
 }
 
+
 /*Moon Music Album*/
+/* Main Section Styling - Background and layout for the album page section */
 .main6{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/09102627-coldplay-concert-kuala-lumpur-1_cover_1600x938.jpg);
@@ -1117,7 +1161,7 @@ button, .sold-out {
     height: 90vh;
 }
 
-/* Album Page Styling */
+/* Album Page Styling - Container for the entire album page */
 .album-page {
     display: flex;
     flex-direction: column;
@@ -1127,6 +1171,7 @@ button, .sold-out {
     color: #000000;
 }
 
+/* Album Details - Flex container for album cover and description */
 .album-details {
     display: flex;
     flex-direction: row;
@@ -1135,28 +1180,30 @@ button, .sold-out {
     margin-bottom: 40px;
 }
 
+/* Album Cover Styling - Size, shape, and shadow for the album cover image */
 .album-cover {
     width: 400px;
     height: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-
 }
 
+/* Album Words - Styling for the description text section of the album */
 .album-words {
     max-width: 500px;
     font-size: 22px;
     color: #000000;
 }
 
+/* Album Title - Styling for the title inside the album description */
 .album-words h1 {
     font-size: 50px;
     padding-bottom: 5px;
     text-align: center;
     padding-top: 10px;
-
 }
 
+/* Album Description Paragraph - Styling for the text in the album description */
 .album-words p {
     font-size: 20px;
     margin-bottom: 50px;
@@ -1164,25 +1211,26 @@ button, .sold-out {
     text-align: center;
 }
 
+/* Songs List Container - Styling for the container of the song list */
 .songs-list {
     width: 100%;
     max-width: 800px;
     margin-top: 20px;
-    
 }
 
+/* Ordered List Styling - Remove default list styles for song items */
 .songs-list ol {
     list-style-type: none;
     padding: 0;
-   
 }
 
+/* Song List Item - Styling for each individual song in the list */
 .songs-list li {
     font-size: 1.1em;
     margin: 10px 0;
     display: flex;
     justify-content: space-between;
-    
 }
+
 
 
