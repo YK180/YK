@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title of the page -->
+    <title>Coldplay Tour</title>
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The main section with a background image -->
+    <div class="main3">
+
+        <!-- Header displaying the Coldplay logo -->
+        <h2 class="logo">Coldplay</h2>
+
+        <!-- Navigation menu with links to other pages -->
+        <div class="menu">
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="music.html ">MUSIC</a></li>
+                <li><a href="tours.html">TOUR</a></li>
+                <li><a href="stores.html">STORE</a></li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <!-- Section for Tour Dates -->
+    <section class="tour-dates">
+
+        <!-- Filter Buttons -->
+        <div class="filters">
+            <!-- Button to show all tour dates -->
+            <button onclick="filterTours('all')">ALL</button>
+            <!-- Button to filter UK/Europe tour dates -->
+            <button onclick="filterTours('uk-europe')">UK / EUROPE</button>
+            <!-- Button to filter USA/CA tour dates -->
+            <button onclick="filterTours('usa-ca')">USA / CA</button>
+            <!-- Button to filter Latin America tour dates -->
+            <button onclick="filterTours('latin-america')">L. AMERICA</button>
+            <!-- Button to filter Asia/Australia tour dates -->
+            <button onclick="filterTours('asia-australia')">ASIA / AUSTRALIA</button>
+        </div>
+
+        <!-- Table for Tour Dates -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                    <th>Venue</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tour-table">
+                <!-- Tour rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer containing social media links and legal information -->
+    <footer class="footer">
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/coldplay/" target="_blank">
+                <img src="icons/instagram.svg" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com/coldplay" target="_blank">
+                <img src="icons/facebook.svg" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://x.com/coldplay/?mx=2" target="_blank">
+                <img src="icons/twitter-x.svg" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU" target="_blank">
+                <img src="icons/spotify.svg" alt="Spotify" class="social-icon">
+            </a>
+            <a href="https://music.apple.com/gb/artist/coldplay/471744" target="_blank">
+                <img src="icons/apple.svg" alt="Apple Music" class="social-icon">
+            </a>
+            <a href="https://www.youtube.com/user/ColdplayVEVO" target="_blank">
+                <img src="icons/youtube.svg" alt="YouTube" class="social-icon">
+            </a>
+            <a href="https://www.tiktok.com/@coldplay" target="_blank">
+                <img src="icons/tiktok.svg" alt="TikTok" class="social-icon">
+            </a>
+        </div>
+        <!-- Links to partner organizations -->
+        <div class="footer-links">
+            <a href="https://www.oxfam.org.uk/" target="_blank">Oxfam</a>
+            <a href="https://www.globalcitizen.org/en/" target="_blank">Global Citizen</a>
+            <a href="https://www.facebook.com/ClientEarth/" target="_blank">ClientEarth</a>
+        </div>
+        <!-- Privacy and terms information -->
+        <div class="footer-info">
+            <a href="https://privacy.wmg.com/wmi/privacy">Privacy Policy</a> | 
+            <a href="https://privacy.wmg.com/wmi/terms-of-use">Terms & Conditions</a> | 
+            <a href="https://www.wminewmedia.com/cookies-policy/?ot=5aaaddf4-be7f-48cf-bd94-9ac886f35916&url=www.coldplay.com">Cookies Policy</a> | 
+            <a href="#">Cookies Settings</a>
+        </div>
+        <!-- Copyright notice -->
+        <div class="copyright">
+            &copy; Coldplay. Site by RabbitHole
+        </div>
+    </footer>
+
+    <!-- JavaScript Function -->
+    <script src="filterTours.js"></script>
+    <script src="generateTours.js"></script> 
+    
+</body>
+</html>
