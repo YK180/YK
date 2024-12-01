@@ -1,0 +1,1188 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*General Page*/
+.logo{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    float: left; 
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+/* Changes color when the cursor hovers over the menu */
+ul li a:hover{
+    color: #9766f1; 
+}
+
+/* Footer container */
+.footer {
+    background-color: #9766f1; /* Navy blue background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Social media icons section */
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+/* Social media icon images */
+.social-media img {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+    display: inline-block; /* Ensures proper alignment */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+    transform: scale(1.2); /* Enlarge the icon slightly on hover */
+}
+
+/* Footer links section */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #c2a1ff; /* Highlight color on hover */
+}
+
+/* Footer info section */
+.footer-info {
+    margin-bottom: 10px;
+}
+
+.footer-info a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Copyright text */
+.copyright {
+    font-size: 12px;
+}
+
+
+
+/* HOME PAGE*/
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/Coldplay\ Background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* About Section */
+.about-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1, .about-section h2 {
+    color: #9766f1;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.history p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.img-text{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.history{
+    margin-bottom: 30px;
+}
+
+.achievements{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.band-members{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.history-image {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.achievements ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.band-members .members {
+    display: flex;
+    gap: 66px;
+    flex-wrap: wrap;
+}
+
+.band-members .member {
+    text-align: center;
+    width: 250px;
+}
+
+.band-members .member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 300px; /* Set a consistent height */
+    width: 250px;
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    justify-content: space-between;
+}
+
+
+/* MUSIC PAGE*/
+.main2{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/Coldplay\ stage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.text{
+    font-size: 50px;
+    text-align: center;
+    color:#9766f1;
+    padding-top: 25px;  
+}
+
+/* Album Container */
+.album-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;  /* Increased padding for more space inside the container */
+    max-width: 1600px;  /* Increased width to make the container wider */
+    width: 100%;  /* Ensure the container takes up the full width */
+    margin: 0 auto;
+    
+}
+
+/* Individual Album Box */
+.album {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 345px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.album-info {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.album-info h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.album-info p {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: #ccc;
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* TOUR PAGE*/
+.main3 {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(coldplayconcert/Coldplay\ concert.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+/* Filter Buttons */
+.filters {
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
+.filters button {
+    margin: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #9766f1;
+    transition: background-color 0.3s ease;
+    
+}
+
+.filters button:hover {
+    background-color: #8257d1;
+}
+
+/* General Table Styling */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin-bottom: 20px; /* Add space below the table */
+    table-layout: fixed; /* Ensure consistent column widths */
+
+}
+
+th, td {
+    padding: 10px; /* Add padding for better readability */
+    text-align: center; /* Center-align the text */
+    border-bottom: 1px solid #ddd; /* Add a light border for rows */
+    font-size: 18px;
+
+}
+
+th {    
+    background-color: #9766f1; /* Green background for headers */
+    color: white; /* White text for header */
+}
+
+td {
+    background-color: #f9f9f9; /* Light background color for rows */
+}
+
+/* Styling for the "Available" ticket button */
+button.buy-ticket {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Set a readable font size */
+}
+
+/* Hover effect for the "Available" button */
+button.buy-ticket:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button, .sold-out {
+    display: inline-block; /* Makes them appear side by side */
+    padding: 10px 20px; /* Ensures the buttons have consistent padding */
+    font-size: 16px; /* Adjusts the text size */
+    text-align: center; /* Centers the text within the button */
+    border-radius: 5px; /* Gives the buttons rounded corners */
+    cursor: pointer; /* Makes the button look clickable */
+    vertical-align: middle; /* Aligns buttons vertically */
+}
+
+.sold-out {
+    background-color: #d3d3d3; /* Sold Out button color */
+    color: #fff;
+    cursor: not-allowed; /* Disables the sold-out button */
+    
+}
+
+/*STORE PAGE*/
+.main4{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/AUSTRIA-BRITAIN-MUSIC-CONCERT-COLDPLAY-SECURITY-12_1726973147488_1726973178311.webp);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* Store Section */
+.store {
+    text-align: center;
+}
+
+.store h1 {
+    font-size: 45px;
+    color: #9766f1;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.store p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.world-tour h1{
+    font-size: 45px;
+    text-align: center;
+    color: #9766f1;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.product-container8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.product-container9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card2 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card3 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card4 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card5 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card6 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card7 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card8 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Default for smaller screens */
+    max-width: 250px; /* Limit size for larger screens */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+.product-card9 {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    min-height: 300px; /* Set a fixed minimum height */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+    transition: transform 0.2s;
+}
+
+/* Ensure consistent image size */
+.product-card img {
+    max-width: 100%;
+    height: 180px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card2 img {
+    max-width: 100%;
+    height: 180px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card3 img {
+    max-width: 100%;
+    height: 235px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card4 img {
+    max-width: 100%;
+    height: 235px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card5 img {
+    max-width: 100%;
+    height: 180px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card6 img {
+    max-width: 100%;
+    height: 235px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card7 img {
+    max-width: 100%;
+    height: 235px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card8 img {
+    max-width: 100%;
+    height: 180px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card9 img {
+    max-width: 100%;
+    height: 180px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Adjust spacing and alignment of text and button */
+.product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card2 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card3 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card4 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card5 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card6 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card7 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+.product-card8 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+
+.product-card9 h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow title to take flexible space */
+}
+
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card2 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card3 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card4 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card5 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card6 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card7 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card8 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card9 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card2 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card3 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card4 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card5 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card6 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card7 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card8 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card9 button {
+    background: #9766f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card button:hover {
+    background: #c2a1ff;
+}
+
+.product-card2 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card3 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card4 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card5 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card6 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card7 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card8 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card9 button:hover {
+    background: #c2a1ff;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card2:hover {
+    transform: scale(1.05);
+}
+
+.product-card3:hover {
+    transform: scale(1.05);
+}
+
+.product-card4:hover {
+    transform: scale(1.05);
+}
+
+.product-card5:hover {
+    transform: scale(1.05);
+}
+
+.product-card6:hover {
+    transform: scale(1.05);
+}
+
+.product-card7:hover {
+    transform: scale(1.05);
+}
+
+.product-card8:hover {
+    transform: scale(1.05);
+}
+
+.product-card9:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Cart Sidebar Styles */
+#cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 320px;
+    height: 100%;
+    background: #002f4b;
+    color: #f1faee;
+    padding: 20px;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.4);
+    transition: right 0.3s ease;
+    z-index: 999;
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+#cart-sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #f1faee;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Cart Items */
+#cart-container {
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    max-height: 60%;
+    overflow-y: auto; /* Scrollable area for cart items */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #f1faee;
+}
+
+.cart-item p {
+    margin: 0;
+    font-size: 14px;
+    flex: 1;
+}
+
+.cart-item button {
+    background: #e63946;
+    color: #f1faee;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s;
+}
+
+.cart-item button:hover {
+    background: #d62828;
+}
+
+/* Cart Sidebar Close Button */
+#close-cart {
+    position: absolute;
+    top: 20px; /* Adjust top position */
+    left: 10px; /* Close button now on the left */
+    font-size: 22px;
+    color: #f1faee;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: transform 0.2s;
+}
+
+#close-cart:hover {
+    transform: rotate(90deg);
+}
+
+/* Cart Total Price */
+#total-text {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f1faee;
+}
+
+/* Checkout Button */
+#checkout-button {
+    width: 100%;
+    padding: 12px;
+    background: #2a9d8f;
+    color: #f1faee;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#checkout-button:hover {
+    background: #1d6f5b;
+    transform: translateY(-2px);
+}
+
+/* Cart Icon */
+#cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#cart-icon img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/*Moon Music Album*/
+.main6{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(coldplayconcert/09102627-coldplay-concert-kuala-lumpur-1_cover_1600x938.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* Album Page Styling */
+.album-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #fffafa;
+    color: #000000;
+}
+
+.album-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.album-cover {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.album-words {
+    max-width: 500px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.album-words h1 {
+    font-size: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.album-words p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+.songs-list {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    
+}
+
+.songs-list ol {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+.songs-list li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
