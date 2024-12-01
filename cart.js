@@ -59,21 +59,20 @@ document.addEventListener("DOMContentLoaded", () => {
             const productCard = button.parentElement;
             const product = {
                 name: productCard.querySelector("h3").innerText,
-                price: parsePrice(productCard.querySelector("p").innerText) // Use parsePrice here
+                price: parsePrice(productCard.querySelector("p").innerText) 
             };
             addToCart(product);
         });
     });
 });
 
-// Repeat the same for other product cards (if you have more)
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".product-card2 button").forEach((button) => {
         button.addEventListener("click", () => {
             const productCard = button.parentElement;
             const product = {
                 name: productCard.querySelector("h3").innerText,
-                price: parsePrice(productCard.querySelector("p").innerText) // Use parsePrice here
+                price: parsePrice(productCard.querySelector("p").innerText) 
             };
             addToCart(product);
         });
@@ -86,7 +85,98 @@ document.addEventListener("DOMContentLoaded", () => {
             const productCard = button.parentElement;
             const product = {
                 name: productCard.querySelector("h3").innerText,
-                price: parsePrice(productCard.querySelector("p").innerText) // Use parsePrice here
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card3 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card4 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card5 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card6 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card7 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card8 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
+            };
+            addToCart(product);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".product-card9 button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const productCard = button.parentElement;
+            const product = {
+                name: productCard.querySelector("h3").innerText,
+                price: parsePrice(productCard.querySelector("p").innerText) 
             };
             addToCart(product);
         });
